@@ -1,17 +1,24 @@
+/* This is how to make comments! */
+/* This CSS file dictates the format for the following elements defined */
 body {
 	font-family: verdana;
+	/* #FF9933 is a type of orange */
 	background-color: #FF9933;
 }
 h1 {
+	/* #CC0000 is a type of red */
 	background-color: #CC0000;
 	color: white
 }
 button {
+	/* #4CAF50 is a type of green */
 	background-color: #4CAF50;
 	border: none;
 	color: white;
 	padding: 10px 24px;
 	font-size: 16px;
+	/* This changes the cursor from an arrow to a
+	pointer finger when hovering over the button */
 	cursor: pointer;
 }
 form {
