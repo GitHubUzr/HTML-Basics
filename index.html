@@ -1,15 +1,28 @@
+<!-- This is how you write comments! -->
+
+<!-- The purpose of this HTML file is to create
+	 a basic website that has 'Customer Information'
+	 as a header, collects user first name/
+	 last name/email address and has a submit button.
+	 It also shows a message upon clicking submit,
+	 includes a photo with caption, and has an
+	 address section with an example email link.
+	 -->
+	 
 <!DOCTYPE html>
 <html lang="en-US">
 
-<!-- This is how you write comments! -->
 
 <head>
+<!-- This line refers to the css file 'styles' for formatting -->
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+<!-- This line contains the header -->
 <h1>Customer Information</h1>
 
+<!-- This is the form where a user can input their information -->
 <form>
  <fieldset>
   <legend>Please enter your information below:</legend>
@@ -19,19 +32,24 @@
  </fieldset>
 </form>
 
+<!-- This is a line break -->
 <br />
 
+<!-- This is the button. It shows a message once it is clicked -->
 <button type="button" onclick="alert('Your information has been received')">Submit</button>
 
 <br />
 <br />
 
 <figure>
+<!-- The img line tag the picture; if the picture cannot appear, it will show the text lion -->
 	<img src="lion.jpg" alt="lion" style="width:608px;height:200px">
+<!-- The figcaption tag adds a caption. The caption is citing the composer, year and publisher of the image -->
 	<figcaption>Prisma/Heeb Christian. 2009. Alamy Stock Photo. </figcaption>
 
 </figure>
 
+<!-- The address tag defines contact information for the author of a document -->
 <address>
 Written by <a href="mailto:example@mail.com"> Tatyanna Villegas
 </address>
